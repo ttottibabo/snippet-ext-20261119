@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "내 문장 모음",
+  "version": "1.0.0",
+  "description": "웹에서 마음에 드는 문장을 드래그하고 오른쪽 클릭으로 저장해 두는 문장 수집함",
+  "permissions": ["contextMenus", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "내 문장 모음",
+    "default_popup": "popup.html"
+  }
+}
